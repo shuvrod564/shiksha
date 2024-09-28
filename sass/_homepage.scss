@@ -1,0 +1,127 @@
+
+.owl-carousel .owl-item img { 
+    width: auto;
+    &.w-100 {
+        width: 100% !important;
+    }
+}
+
+.owl-nav {
+    margin-top: 1.5rem;
+        text-align: center;
+    .owl-prev,
+    .owl-next {
+        width: 3rem;
+        height: 3rem;border-radius: 50% !important;margin: .25rem;
+        background: var(--chevron-right) no-repeat center center / 1.5rem !important;
+        background-color: var(--white) !important;box-shadow: 0 2px 3px rgba(0, 110, 22, 0.2);
+        border-radius: var(--border-radius);
+        transition: all .3s ease-in-out;
+
+        span {
+            display: none;
+        }
+        &.disabled { opacity: .6;pointer-events: none; }
+    }
+    .owl-prev {
+        background: var(--chevron-left) no-repeat center center / 1.5rem !important;background-color: #fff !important;
+    }
+    .owl-prev,
+    .owl-next {
+        &:hover {
+            background-color: #e0e0e0 !important;
+        }
+    }
+}
+  
+.owl-dots {
+    display: flex;justify-content: center;align-items: center; 
+    margin-top: 1.5rem;
+    .owl-dot {
+        width: 10px;height: 10px;border-radius: 50%;margin: 0 .2rem;
+        justify-content: center;align-items: center;background-color: #7C7C7C51 !important;
+         
+        &.active {
+            background-color: var(--brand) !important;
+            width: 16px;border-radius: 8px;
+        }
+    }
+}
+
+/*----- Hero Search For styles ------*/
+.form__box {
+
+    .form-control, .form-select {
+        height: 4rem;border-radius: 0%;
+    }
+    .btn-primary {
+        height: 4rem;
+    }
+} 
+  
+
+.college__card {
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.0509803922);border: 1px solid #E7F4FF;
+    padding: .75rem;
+
+    .title {
+        min-height: 3rem;
+    }
+    .desc {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 3;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        white-space: normal;
+    }
+}
+
+.join__card {
+    background-color: #0E71BC;
+
+    &.join__now {
+        background-color: #1CA1DF;
+
+        .btn-dark {
+            &:hover, &:focus, &:active {
+                background-color: var(--blue);border-color: var(--blue);
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    .join__card {
+        .btn-dark { width: 50%; }
+    }
+}
+
+.scholarship__card {
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.0509803922);
+
+    .logo__box {
+        width: 5rem;height: 5rem;border:1px solid var(--light-bg);
+
+        img {
+            max-height: 3.5rem;width: auto;
+        }
+    }
+    .btn-outline-primary {
+        width: 3rem;height: 3rem;border-color: var(--light-bg);
+
+        svg { fill: #c3dbff;transition: all .3s ease-in-out; }
+        
+        &:hover, &:active, &:focus {
+            background-color: var(--light-bg);
+            svg { fill: var(--brand); }
+        }
+    }
+    .info__list {
+        gap: 0.2rem 1.5rem;
+    }
+}
+
+.hostelCarousels {
+    .owl-item { padding: 2px; }
+}

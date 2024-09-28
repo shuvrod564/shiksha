@@ -1,0 +1,140 @@
+/*====================================================== Home Page Styles =========================================================================================*/
+.owl-carousel .owl-item img {
+  width: auto;
+}
+.owl-carousel .owl-item img.w-100 {
+  width: 100% !important;
+}
+
+.owl-nav {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50% !important;
+  margin: 0.25rem;
+  background: var(--chevron-right) no-repeat center center/1.5rem !important;
+  background-color: var(--white) !important;
+  box-shadow: 0 2px 3px rgba(0, 110, 22, 0.2);
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav .owl-prev span,
+.owl-nav .owl-next span {
+  display: none;
+}
+.owl-nav .owl-prev.disabled,
+.owl-nav .owl-next.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+.owl-nav .owl-prev {
+  background: var(--chevron-left) no-repeat center center/1.5rem !important;
+  background-color: #fff !important;
+}
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
+  background-color: #e0e0e0 !important;
+}
+
+.owl-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.owl-dots .owl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 0.2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(124, 124, 124, 0.3176470588) !important;
+}
+.owl-dots .owl-dot.active {
+  background-color: var(--brand) !important;
+  width: 16px;
+  border-radius: 8px;
+}
+
+/*----- Hero Search For styles ------*/
+.form__box .form-control, .form__box .form-select {
+  height: 4rem;
+  border-radius: 0%;
+}
+.form__box .btn-primary {
+  height: 4rem;
+}
+
+.college__card {
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.0509803922);
+  border: 1px solid #E7F4FF;
+  padding: 0.75rem;
+}
+.college__card .title {
+  min-height: 3rem;
+}
+.college__card .desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.join__card {
+  background-color: #0E71BC;
+}
+.join__card.join__now {
+  background-color: #1CA1DF;
+}
+.join__card.join__now .btn-dark:hover, .join__card.join__now .btn-dark:focus, .join__card.join__now .btn-dark:active {
+  background-color: var(--blue);
+  border-color: var(--blue);
+}
+
+@media (min-width: 768px) {
+  .join__card .btn-dark {
+    width: 50%;
+  }
+}
+.scholarship__card {
+  border: 1px solid #D9D9D9;
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.0509803922);
+}
+.scholarship__card .logo__box {
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid var(--light-bg);
+}
+.scholarship__card .logo__box img {
+  max-height: 3.5rem;
+  width: auto;
+}
+.scholarship__card .btn-outline-primary {
+  width: 3rem;
+  height: 3rem;
+  border-color: var(--light-bg);
+}
+.scholarship__card .btn-outline-primary svg {
+  fill: #c3dbff;
+  transition: all 0.3s ease-in-out;
+}
+.scholarship__card .btn-outline-primary:hover, .scholarship__card .btn-outline-primary:active, .scholarship__card .btn-outline-primary:focus {
+  background-color: var(--light-bg);
+}
+.scholarship__card .btn-outline-primary:hover svg, .scholarship__card .btn-outline-primary:active svg, .scholarship__card .btn-outline-primary:focus svg {
+  fill: var(--brand);
+}
+.scholarship__card .info__list {
+  gap: 0.2rem 1.5rem;
+}
+
+.hostelCarousels .owl-item {
+  padding: 2px;
+}/*# sourceMappingURL=style.css.map */
