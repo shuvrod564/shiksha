@@ -1,29 +1,72 @@
-<!-- Footer Wrapper Start -->
-<footer>
+    
+    <!-- subscribtion wrapper start -->
+     <div class="pt-5 newsletter__wrapper position-relative z-3">
+        <div class="container">
+            <div class="p-4 p-md-5  rounded-4" style="background:var(--blue);">
+                <h2 class="fs-2 text-white text-center fw-bold">Subscribe to our Newsletter</h2>
+                <p class="fs-5 text-white text-center mb-4">Hostel Notidication News Update</p>
+                <form action="#" method="post">
+                    <div class="row g-3">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="input__group">
+                                <label for="name" class="label">Full name</label>
+                                <input type="name" id="name" class="form-control" placeholder="">
+                            </div> 
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="input__group">
+                                <label for="phone" class="label">Phone number</label>
+                                <input type="text" id="phone" class="form-control" placeholder="">
+                            </div> 
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="input__group">
+                                <label for="email" class="label">Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="">
+                            </div> 
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="input__group">
+                                <label for="country" class="label">Country</label>
+                                <input type="text" id="country" class="form-control" placeholder="">
+                            </div> 
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="input__group">
+                                <label for="college" class="label">College name</label>
+                                <input type="text" id="college" class="form-control" placeholder="">
+                            </div> 
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="input__group">
+                                <label for="course" class="label">Course name</label>
+                                <input type="text" id="course" class="form-control" placeholder="">
+                            </div> 
+                        </div>
+                        <div class="col-12 text-center"> 
+                            <button type="submit" class="btn btn-outline-white border-2 px-5 py-3 fs-5 gap-3 mt-3">
+                                Subscribe
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 56 56"><path fill="white" d="M49.762 28c0-.586-.234-1.125-.703-1.57L33.543 10.938c-.516-.516-1.031-.704-1.594-.704c-1.148 0-2.039.844-2.039 2.016c0 .563.188 1.101.563 1.477l5.25 5.343l7.898 7.196l-5.672-.352H8.301c-1.195 0-2.063.867-2.063 2.086s.867 2.086 2.063 2.086h29.648l5.696-.352l-7.922 7.196l-5.25 5.343c-.375.352-.563.914-.563 1.477c0 1.172.89 2.016 2.04 2.016c.562 0 1.054-.211 1.523-.657L49.059 29.57c.469-.445.703-.984.703-1.57"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                  
+            </div>
+        </div><!--.container-->
+     </div>
+    <!-- subscribtion wrapper end -->
+    
+    <!-- Footer Wrapper Start -->
+    <footer>
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-3 text-center text-md-start">
-                    <a href="index.html" class="logo" aria-label="Shiksha">
-                        <img src="assets/images/logo.webp" width="233" height="49" alt="Shiksha">
+                    <a href="index.php" class="logo" aria-label="Golap Admission">
+                        <img src="assets/images/golap-logo.webp" width="200" height="60" alt="Golap Admission">
                     </a>
                     <p class="fs-6 mt-2 mt-sm-3 mt-md-4 fw-semibold text-dark">Connect with us</p>
-                    <ul class="social__box d-flex gap-2 justify-content-center justify-content-sm-start">
-                        <li data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook">
-                            <a href="#" target="_blank" class="d-flex justify-content-center align-items-center rounded-circle">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#A2A2A2" d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4z"/></svg>
-                            </a>
-                        </li> 
-                        <li data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter">
-                            <a href="#" target="_blank" class="d-flex justify-content-center align-items-center rounded-circle">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 14 14"><g fill="none"><g clip-path="url(#primeTwitter0)"><path fill="#A2A2A2" d="M11.025.656h2.147L8.482 6.03L14 13.344H9.68L6.294 8.909l-3.87 4.435H.275l5.016-5.75L0 .657h4.43L7.486 4.71zm-.755 11.4h1.19L3.78 1.877H2.504z"/></g><defs><clipPath id="primeTwitter0"><path fill="#fff" d="M0 0h14v14H0z"/></clipPath></defs></g></svg>
-                            </a>
-                        </li> 
-                        <li data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin">
-                            <a href="#" target="_blank" class="d-flex justify-content-center align-items-center rounded-circle">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#A2A2A2" d="M6.94 5a2 2 0 1 1-4-.002a2 2 0 0 1 4 .002M7 8.48H3V21h4zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91z"/></svg>
-                            </a>
-                        </li>  
-                    </ul> 
+                    <?php include('includes/social-links.inc.php'); ?>
                 </div><!--.//col-->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6"> 
                     <p class="fs-6 fw-semibold text-dark">Trending Jobs</p>
@@ -56,10 +99,10 @@
                 </div><!--.//col-->
             </div><!--.//row--> 
         </div><!--.//container-->
-        <div class="copy__right p-3 mt-4 mt-md-5">
+        <div class="copy__right p-3 mt-4 mt-md-5 border-top" style="border-color: #2222221f !important;">
             <div class="container">
                 <p class="text-center text-dark mb-0">
-                    Copyright © 2024 Shiksha. All Rights Reserved
+                    Copyright © <?php echo date('Y'); ?> Golap Admission. All Rights Reserved
                 </p>
             </div>
         </div>

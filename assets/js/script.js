@@ -1,8 +1,23 @@
- 
+// Fixed to menu script 
+window.onscroll = function() { 
+  setFixedMenu();
+  scrollFunction();
+}; 
+function setFixedMenu() {
+  var navbar = document.getElementById("mainNav");
+  if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {  
+    navbar.classList.add("fixed-top");
+  } else {
+    navbar.classList.remove("fixed-top");
+  }
+}
+
+
+
 
 /*============================= Back To Top Button Script ========================*/
 var mybutton = document.getElementById("backTop");
-window.onscroll = function () { scrollFunction() };
+ 
 function scrollFunction() {
   if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
     mybutton.style.display = "flex";
@@ -14,6 +29,25 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// Toggle password script
+document.getElementById('toggleLoginPassword').addEventListener('click', function () {
+  var passwordField = document.getElementById('loginPassword');
+  if (passwordField.type === 'password') {
+      passwordField.type = 'text';
+  } else {
+      passwordField.type = 'password';
+  }
+});
+document.getElementById('toggleSignupPassword').addEventListener('click', function () {
+  var passwordField = document.getElementById('signupPassword');
+  if (passwordField.type === 'password') {
+      passwordField.type = 'text';
+  } else {
+      passwordField.type = 'password';
+  }
+});
+
 
 
 (function ($) {

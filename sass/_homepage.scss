@@ -49,13 +49,20 @@
 }
 
 /*----- Hero Search For styles ------*/
-.form__box {
-
+.form__box { 
     .form-control, .form-select {
         height: 4rem;border-radius: 0%;
     }
     .btn-primary {
         height: 4rem;
+    }
+    .divider {
+        position: relative;
+
+        &::after {
+            content: '';width: 1px;height: 100%;display: block;position: absolute;top: 0%;right: 0%;
+            background: linear-gradient(#fff, #c6c6c6, #fff);
+        }
     }
 } 
   
@@ -74,6 +81,33 @@
         display: -webkit-box;
         -webkit-box-orient: vertical;
         white-space: normal;
+    }
+
+    .logo__box {
+        width: 4rem;height: 4rem;top: .5rem;left: .5rem;
+
+        img {
+            height: 3rem;width: 3rem;object-fit: contain;
+        }
+
+        &::after {
+            content: '';width: 100%;height: 100%;border-radius: 50%;background-color: #ffffff04;backdrop-filter: blur(10px);
+            position: absolute;top: 0%;left: 0%;z-index: 0;border: 1px solid #f4f4f4;box-shadow: 0 14px 20px -5px #f4f4f4d0;
+        }
+    }
+    .cart__btn {
+        width: 3rem;height: 3rem;top: .5rem;right: .5rem;
+
+        svg {
+            height: 1.5rem;width: 1.5rem;object-fit: contain;position: relative;z-index: 1;fill: var(--brand);
+        } 
+        &::after {
+            content: '';width: 100%;height: 100%;border-radius: 50%;background-color: #ffffffb3;backdrop-filter: blur(10px);
+            position: absolute;top: 0%;left: 0%;z-index: 0;border: 1px solid #f4f4f4;box-shadow: 0 14px 20px -5px #f4f4f4ab;
+        }
+        &:hover {
+            background-color: #fffffff5;box-shadow: 0 14px 20px -5px #f4f4f4dc;
+        }
     }
 }
 

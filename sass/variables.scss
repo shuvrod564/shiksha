@@ -209,3 +209,13 @@ ul {
 @import "./menu";
 
 @import "./footer";
+
+.input__group {
+    position: relative;
+    .label {
+        position: absolute;top: 0.5rem;left: 1.5rem;font-size: .875rem;color: #4F5E64;
+    }
+    .form-control {
+        height: 4.5rem;padding: 1.5rem 1.5rem .5rem;
+    }
+}

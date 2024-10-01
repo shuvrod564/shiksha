@@ -1,14 +1,22 @@
-.contact__card {
-    .icon { width: 2rem; 
-        img { height: 2rem; &.sm { height: 2rem; } }
-    }
-    .caption {
-        width: calc(100% - 2rem);padding-left: .5rem;
+ 
+.newsletter__wrapper {
+    margin-bottom: -6rem;
+
+    .btn-outline-white {
+        svg {
+            transition: all .3s ease-in-out;
+        }
+        &:hover, &:focus, &:active {
+            svg {
+                transform: translateX(.5rem);
+                path { fill: var(--brand); }
+            }
+        }
     }
 }
 footer {    
     background-color: #EAEAEA;
-    padding: 3rem 0 0rem 0;
+    padding: 10rem 0 0rem 0;
  
     a {  
         text-transform: capitalize;   
@@ -19,11 +27,9 @@ footer {
         } 
     }
     
-    .border-top { border-color: rgba(255, 255, 255, 0.3) !important;  }
+    
 
-   .copyright__wrapp {
-        border-top: 1px solid var(--border-color);
-    }
+    
  
 }
 
@@ -32,10 +38,8 @@ footer {
     li {
         margin-bottom: 0; 
         a {
-            width: 2.5rem;
-            height: 2.5rem;border-radius: 3px;
-            background-color: var(--brand);
-            color: var(--white);
+            width: 3rem;
+            height: 3rem;border-radius: 50%; 
 
             svg { width: 1.125rem;height: 1.125rem; 
                 path {

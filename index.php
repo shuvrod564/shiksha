@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="<?php echo $base_url;?>assets/images/favicon.ico" type="image/x-icon"> 
-    <title>Shiksha - Educational Information</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"> 
+    <title>Golap Admission</title>
  
     <!-- All Stylesheets -->
     <?php include_once('includes/stylesheets.inc.php'); ?> 
@@ -33,7 +33,7 @@
 
                 <form action="#" class="form__box col-lg-8 mx-auto p-1 rounded-3 bg-white mb-lg-5">
                     <div class="row g-0">
-                        <div class="col-md-4">
+                        <div class="col-md-4 divider">
                             <select name="category" id="category" class="form-select select2 border-0">
                                 <option value="Select category">Select category</option>
                                 <option value="B.E. / B.Tech">B.E. / B.Tech</option>
@@ -134,6 +134,37 @@
             </div><!-- container -->
         </section>
         <!-- best colleges section end -->
+
+        <section class="py-5 bg-light rounded-3">
+            <div class="container py-4">
+                <div class="row g-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-3 col-6">
+                        <div class="cases__card">
+                            <h2 class="display-4 text-primary text-center fw-bold d-block mb-1 lh-1"> <span class="counter" data-count="10" ended="true">0</span>K</h2>
+                            <p class="fs-5 text-center text-dark mb-0">Online Courses</p>
+                        </div>
+                    </div><!--//.col-->
+                    <div class="col-lg-3 col-6">
+                        <div class="cases__card">
+                            <h2 class="display-4 text-primary text-center fw-bold d-block mb-1 lh-1"><span class="counter" data-count="100" ended="true">0</span>+</h2>
+                            <p class="fs-5 text-center text-dark mb-0">Expert Tutors</p>
+                        </div>
+                    </div><!--//.col-->
+                    <div class="col-lg-3 col-6">
+                        <div class="cases__card">
+                            <h2 class="display-4 text-primary text-center fw-bold d-block mb-1 lh-1"><span class="counter" data-count="60" ended="true">0</span>K+</h2>
+                            <p class="fs-5 text-center text-dark mb-0">Online Students</p>
+                        </div>
+                    </div><!--//.col-->
+                    <div class="col-lg-3 col-6">
+                        <div class="cases__card">
+                            <h2 class="display-4 text-primary text-center fw-bold d-block mb-1 lh-1"><span class="counter" data-count="6" ended="true">0</span>K+</h2>
+                            <p class="fs-5 text-center text-dark mb-0">Certified Courses</p>
+                        </div>
+                    </div><!--//.col-->
+                </div><!--//.row-->
+            </div><!--//.container-->
+        </section>
 
         <!-- best colleges section start -->
         <section class="py-5">
@@ -378,6 +409,83 @@
         <!-- best colleges section start -->
         <section class="py-5">
             <div class="container py-md-4">
+                <h2 class="fs-1 fw-bold text-dark text-uppercase text-center mb-4">Top <span class="text-primary">Destinations</span></h2>
+
+
+                <div class="row g-3 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4">
+                    <div class="d-flex">
+                        <?php
+                            $image="assets/images/global/college-1.jpg";
+                            $title="Saraswati College of Engineering";
+                            $location="Sector 12, Rajiv Gandhi Nagar, Mumbai, Maharashtra, 400708";
+                            include('includes/components/college-item.inc.php');
+                        ?> 
+                    </div>
+                    <div class="d-flex">
+                        <?php
+                            $image="assets/images/global/college-2.jpg";
+                            $title="Vidyapath Institute of Technology";
+                            $location="Plot No. 45, Outer Ring Road, Marathahalli, Bengaluru, Karnataka, 560037";
+                            include('includes/components/college-item.inc.php');
+                        ?> 
+                    </div>
+                    <div class="d-flex">
+                        <?php
+                            $image="assets/images/global/college-3.jpg";
+                            $title="Mahatma Gandhi Memorial College";
+                            $location="3rd Cross, Gandhi Nagar, Coimbatore, Tamil Nadu, 641012";
+                            include('includes/components/college-item.inc.php');
+                        ?> 
+                    </div>
+                    <div class="d-flex">
+                        <?php
+                            $image="assets/images/global/college-4.jpg";
+                            $title="Sri Aurobindo College of Science";
+                            $location="21, M.G. Road, Vasant Kunj, New Delhi, Delhi, 110070";
+                            include('includes/components/college-item.inc.php');
+                        ?> 
+                    </div>
+                    <div class="d-flex">
+                        <?php
+                            $image="assets/images/global/college-5.jpg";
+                            $title="Nalanda Institute of Management";
+                            $location="NH-31, Bodh Gaya Road, Nalanda, Bihar, 803111";
+                            include('includes/components/college-item.inc.php');
+                        ?> 
+                    </div>
+                    <div class="d-flex">
+                        <?php
+                            $image="assets/images/global/college-6.jpg";
+                            $title="Kalinga University of Arts & Commerce";
+                            $location="52, Kharavela Nagar, Bhubaneswar, Odisha, 751001";
+                            include('includes/components/college-item.inc.php');
+                        ?> 
+                    </div>
+                    <div class="d-flex">
+                        <?php
+                            $image="assets/images/global/college-7.jpg";
+                            $title="Rajendra Prasad Agricultural University";
+                            $location="Village Road, Pusa, Samastipur, Bihar, 848125";
+                            include('includes/components/college-item.inc.php');
+                        ?> 
+                    </div>
+                    <div class="d-flex">
+                        <?php
+                            $image="assets/images/global/college-8.jpg";
+                            $title="Bhagat Singh Institute of Information Technology";
+                            $location="Ring Road, Sector 4, Chandigarh, 160036";
+                            include('includes/components/college-item.inc.php');
+                        ?> 
+                    </div>
+                </div><!--./row-->
+
+            </div><!-- container -->
+        </section>
+        <!-- best colleges section end -->
+
+        <!-- best hostels section start -->
+        <section class="py-5">
+            <div class="container py-md-4">
                 <h2 class="fs-1 fw-bold text-dark text-uppercase text-center mb-4">Top <span class="text-primary">Hostels</span></h2>
 
 
@@ -434,13 +542,61 @@
 
             </div><!-- container -->
         </section>
-        <!-- best colleges section end -->
+        <!-- best hostels section end -->
  
     </main>
  
       
     <!-- Footer and Script List --> 
     <?php include_once('includes/footer.inc.php'); ?> 
+
+    <script>
+        $(document).ready(function($) {
+            //Check if an element was in a screen
+            function isScrolledIntoView(elem){
+                var docViewTop = $(window).scrollTop();
+                var docViewBottom = docViewTop + $(window).height();
+                var elemTop = $(elem).offset().top;
+                var elemBottom = elemTop + $(elem).height();
+                return ((elemBottom <= docViewBottom));
+            }
+            //Count up code
+            function countUp() {
+                $('.counter').each(function() {
+                    var $this = $(this), // <- Don't touch this variable. It's pure magic.
+                        countTo = $this.attr('data-count');
+                        ended = $this.attr('ended');
+
+                if ( ended != "true" && isScrolledIntoView($this) ) {
+                    $({ countNum: $this.text()}).animate({
+                    countNum: countTo
+                    },
+                    {
+                    duration: 2500, //duration of counting
+                    easing: 'swing',
+                    step: function() {
+                        $this.text(Math.floor(this.countNum));
+                    },
+                    complete: function() {
+                        $this.text(this.countNum);
+                    }
+                    });
+                $this.attr('ended', 'true');
+                }
+                });
+            }
+            //Start animation on page-load
+            if ( isScrolledIntoView(".counter") ) {
+                countUp();
+            }
+            //Start animation on screen
+            $(document).scroll(function() {
+                if ( isScrolledIntoView(".counter") ) {
+                    countUp();
+                }
+            });
+            });
+    </script>
  
 </body>
 </html>
