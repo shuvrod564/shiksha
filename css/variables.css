@@ -254,22 +254,30 @@ ul li {
   margin: 0.2rem;
 }
 .pagination .page-item .page-link {
-  border: 1px solid #E5E5E5;
+  background-color: rgba(6, 106, 201, 0.1);
+  border: 1px solid rgba(6, 106, 201, 0.1);
   font-weight: 600;
-  color: var(--body-text-color);
-  border-radius: 0%;
+  color: var(--brand);
   line-height: 1;
+  border-radius: 0.25rem;
   padding: 0.75rem 0.75rem;
-  min-width: 2.5rem;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
   text-align: center;
 }
-.pagination .page-item .page-link img {
-  width: 1.125rem;
+.pagination .page-item .page-link svg {
+  width: 1rem;
+  height: 1rem;
+  fill: var(--brand);
 }
 .pagination .page-item .page-link.active {
   background-color: var(--brand);
   color: var(--white);
   border-color: var(--brand);
+}
+.pagination .page-item .page-link:hover, .pagination .page-item .page-link:focus, .pagination .page-item .page-link:active {
+  background-color: rgba(6, 106, 201, 0.2);
+  border: 1px solid rgba(6, 106, 201, 0.4);
 }
 .pagination .page-item.active .page-link {
   background-color: var(--brand);
@@ -313,6 +321,11 @@ ul li {
   background-color: rgba(255, 255, 255, 0.0666666667);
 }
 
+@media (max-width: 575px) {
+  .top__nav .action__box svg {
+    display: none;
+  }
+}
 .navbar .navbar-brand img {
   max-height: 4.5rem;
 }

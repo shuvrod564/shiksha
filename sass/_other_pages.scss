@@ -1,1 +1,38 @@
- 
+ .course__list__card {
+    box-shadow: 0 0 2rem rgba($color: #555555, $alpha: 0.15);
+
+    .description {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        white-space: normal;
+    }
+    
+    .info__list {
+        svg {
+            width: 1.25rem;height: 1.25rem;fill: var(--brand);
+        }
+    }
+
+    .action__btns {
+        .btn {
+            padding-top: .65rem;padding-bottom: .65rem;
+            &.first__btn {
+                background-color: #EC53B0;border-color: #EC53B0;
+
+                &:focus, &:hover, &:active {
+                    filter: brightness(115%);
+                }
+            }
+            &.second__btn {
+                background-color: #5356FF;border-color: #5356FF;
+
+                &:focus, &:hover, &:active {
+                    filter: brightness(115%);
+                }
+            }
+        }
+    }
+ }

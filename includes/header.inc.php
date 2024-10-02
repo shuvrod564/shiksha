@@ -70,19 +70,19 @@
                         </a> 
                         <ul class="dropdown-menu p-2 rounded-3"> 
                             <li">
-                                <a class="dropdown-item" href="listing.php">College name one</a> 
+                                <a class="dropdown-item" href="college-listing.php">College name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">College name one</a> 
+                                <a class="dropdown-item" href="college-listing.php">College name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">College name one</a> 
+                                <a class="dropdown-item" href="college-listing.php">College name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">College name one</a> 
+                                <a class="dropdown-item" href="college-listing.php">College name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">College name one</a> 
+                                <a class="dropdown-item" href="college-listing.php">College name one</a> 
                             </li>  
                         </ul> 
                     </li>  
@@ -92,19 +92,19 @@
                         </a> 
                         <ul class="dropdown-menu p-2 rounded-3"> 
                             <li">
-                                <a class="dropdown-item" href="listing.php">Course name one</a> 
+                                <a class="dropdown-item" href="course-listing.php">Course name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">Course name one</a> 
+                                <a class="dropdown-item" href="course-listing.php">Course name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">Course name one</a> 
+                                <a class="dropdown-item" href="course-listing.php">Course name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">Course name one</a> 
+                                <a class="dropdown-item" href="course-listing.php">Course name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">Course name one</a> 
+                                <a class="dropdown-item" href="course-listing.php">Course name one</a> 
                             </li>  
                         </ul> 
                     </li>  
@@ -114,19 +114,19 @@
                         </a> 
                         <ul class="dropdown-menu p-2 rounded-3"> 
                             <li">
-                                <a class="dropdown-item" href="listing.php">Place name one</a> 
+                                <a class="dropdown-item" href="course-listing.php">Place name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">Place name one</a> 
+                                <a class="dropdown-item" href="course-listing.php">Place name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">Place name one</a> 
+                                <a class="dropdown-item" href="course-listing.php">Place name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">Place name one</a> 
+                                <a class="dropdown-item" href="course-listing.php">Place name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">Place name one</a> 
+                                <a class="dropdown-item" href="course-listing.php">Place name one</a> 
                             </li>  
                         </ul> 
                     </li>  

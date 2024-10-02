@@ -17,6 +17,12 @@
         }
     }
 }
+@media(max-width:575px) {
+    .top__nav .action__box {
+       
+        svg { display: none; }
+    }
+}
 .navbar {    
     .navbar-brand img { max-height: 4.5rem; }
 
