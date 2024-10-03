@@ -61,6 +61,12 @@ document.getElementById('toggleSignupPassword').addEventListener('click', functi
   }).parents("li").addClass("active");
  
 
+  // user Nav links Active Class Genaretor
+  $("#userProfileNav li a").filter(function () {
+    return this.href == location.href.replace(/#.*/, "");
+  }).parents("li").addClass("active");
+ 
+
   // Bottom Section Products Slider Activaton Script (Homepage)
   $(".hostelCarousels").owlCarousel({
     autoplay: false, 

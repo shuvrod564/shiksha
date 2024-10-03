@@ -26,15 +26,15 @@
             >
             <div class="position-absolute top-0 start-0 w-100 h-100 z-1 bg-black opacity-50"></div>
             <div class="container py-md-5 position-relative z-3">
-                <form action="#" class="">
-                    <div class="form__box listing p-1 rounded-3 bg-white mb-2"> 
+                <form action="#" class="form__box listing">
+                    <div class=" p-1 rounded-3 bg-white mb-2"> 
                         <div class="row g-1">   
                             <div class="col-lg-5 divider first">
                                 <input type="text" name="search" class="form-control border-0 ps-4" placeholder="Search college name here">
                             </div>
                             <div class="col-sm-6 col-md-5 col-lg-3 divider second">
                                 <select name="category" id="category" class="form-select select2 border-0 px-4">
-                                    <option value="Category / Department" disabled>Category / Department</option>
+                                    <option value="Category / Department" disabled selected>Category / Department</option>
                                     <option value="B.E. / B.Tech">B.E. / B.Tech</option>
                                     <option value="MBA/PGDM">MBA/PGDM</option>
                                     <option value="BCA">BCA</option>
@@ -44,7 +44,7 @@
                             </div>
                             <div class="col-sm-6 col-md-5 col-lg-3 ">
                                 <select name="category" id="category" class="form-select select2 border-0 px-4">
-                                    <option value="Level" disabled>Level</option>
+                                    <option value="Level" disabled selected>Level</option>
                                     <option value="Bigineer">Bigineer</option>
                                     <option value="Expert">Expert</option>
                                     <option value="Professional">Professional</option> 
@@ -57,6 +57,32 @@
                                 </button>
                             </div>
                         </div>
+                    </div>
+                    <div class="row g-2 mb-2">
+                        <div class="col-lg-3 col-sm-6">
+                            <select name="institute_type" id="institute_type" class="form-select border-white px-4">
+                                <option value="Institute type" selected disabled>Institute type</option>
+                                <option value="Institute type">Institute type</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <select name="course_name" id="course_name" class="form-select border-white px-4">
+                                <option value="Select Course" selected disabled>Select Course</option>
+                                <option value="Course name">Course name</option>
+                            </select>
+                        </div> 
+                        <div class="col-lg-3 col-sm-6">
+                            <select name="college_type" id="college_type" class="form-select border-white px-4">
+                                <option value="Private College" selected>Private College</option>
+                                <option value="Govt. College">Govt. College</option>
+                            </select>
+                        </div> 
+                        <div class="col-lg-3 col-sm-6">
+                            <select name="board" id="board" class="form-select border-white px-4">
+                                <option value="Board" selected>Board</option>
+                                <option value="University">University</option>
+                            </select>
+                        </div>  
                     </div>
                     <div class="row g-2">
                         <div class="col-lg-3 col-sm-6">
@@ -109,47 +135,56 @@
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <ul class="d-flex flex-column gap-3 gap-md-4 list-unstyled ps-0 mb-0">
+                        <ul class="d-flex flex-column gap-3 gap-md-4 list-unstyled ps-0 mb-0"> 
                             <?php
-                                $image="assets/images/global/course-1.jpg";
-                                $title="NEET Achievers Program";
-                                include('includes/components/course-list-item.inc.php');
+                                $image="assets/images/global/college-1.jpg";
+                                $title="Saraswati College of Engineering";
+                                $location="Sector 12, Rajiv Gandhi Nagar, Mumbai, Maharashtra, 400708";
+                                include('includes/components/college-list-item.inc.php');
                             ?> 
                             <?php
-                                $image="assets/images/global/course-2.jpg";
-                                $title="AIIMS Excellence Course";
-                                include('includes/components/course-list-item.inc.php');
+                                $image="assets/images/global/college-2.jpg";
+                                $title="Vidyapath Institute of Technology";
+                                $location="Plot No. 45, Outer Ring Road, Marathahalli, Bengaluru, Karnataka, 560037";
+                                include('includes/components/college-list-item.inc.php');
                             ?> 
                             <?php
-                                $image="assets/images/global/course-3.jpg";
-                                $title="Medical Genius NEET Crash Course";
-                                include('includes/components/course-list-item.inc.php');
+                                $image="assets/images/global/college-3.jpg";
+                                $title="Mahatma Gandhi Memorial College";
+                                $location="3rd Cross, Gandhi Nagar, Coimbatore, Tamil Nadu, 641012";
+                                include('includes/components/college-list-item.inc.php');
                             ?> 
                             <?php
-                                $image="assets/images/global/course-4.jpg";
-                                $title="NEET Foundation Course";
-                                include('includes/components/course-list-item.inc.php');
-                            ?> 
+                                $image="assets/images/global/college-4.jpg";
+                                $title="Sri Aurobindo College of Science";
+                                $location="21, M.G. Road, Vasant Kunj, New Delhi, Delhi, 110070";
+                                include('includes/components/college-list-item.inc.php');
+                            ?>
                             <?php
-                                $image="assets/images/global/course-5.jpg";
-                                $title="Elite MBBS Entrance Coaching";
-                                include('includes/components/course-list-item.inc.php');
-                            ?> 
+                                $image="assets/images/global/college-5.jpg";
+                                $title="Nalanda Institute of Management";
+                                $location="NH-31, Bodh Gaya Road, Nalanda, Bihar, 803111";
+                                include('includes/components/college-list-item.inc.php');
+                            ?>  
                             <?php
-                                $image="assets/images/global/course-6.jpg";
-                                $title="NEET Rank Booster Program";
-                                include('includes/components/course-list-item.inc.php');
-                            ?> 
+                                $image="assets/images/global/college-6.jpg";
+                                $title="Kalinga University of Arts & Commerce";
+                                $location="52, Kharavela Nagar, Bhubaneswar, Odisha, 751001";
+                                include('includes/components/college-list-item.inc.php');
+                            ?>  
                             <?php
-                                $image="assets/images/global/course-7.jpg";
-                                $title="Biology Ace for NEET";
-                                include('includes/components/course-list-item.inc.php');
-                            ?> 
+                                $image="assets/images/global/college-7.jpg";
+                                $title="Rajendra Prasad Agricultural University";
+                                $location="Village Road, Pusa, Samastipur, Bihar, 848125";
+                                include('includes/components/college-list-item.inc.php');
+                            ?>  
                             <?php
-                                $image="assets/images/global/course-8.jpg";
-                                $title="Medical Entrance Mastery";
-                                include('includes/components/course-list-item.inc.php');
+                                $image="assets/images/global/college-8.jpg";
+                                $title="Bhagat Singh Institute of Information Technology";
+                                $location="Ring Road, Sector 4, Chandigarh, 160036";
+                                include('includes/components/college-list-item.inc.php');
                             ?> 
+                  
                         </ul> 
 
                         <div class="mb-5 mb-lg-0"> 

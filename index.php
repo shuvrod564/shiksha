@@ -166,7 +166,7 @@
             </div><!--//.container-->
         </section>
 
-        <!-- best colleges section start -->
+        <!-- best course section start -->
         <section class="py-5">
             <div class="container py-md-4">
                 <h2 class="fs-1 fw-bold text-dark text-uppercase text-center mb-4">Top <span class="text-primary">MBBS</span> Courses</h2>
@@ -241,7 +241,7 @@
 
             </div><!-- container -->
         </section>
-        <!-- best colleges section end -->
+        <!-- best course section end -->
 
         <!-- promo section start -->
         <section class="pb-5 pt-4"> 
@@ -275,7 +275,7 @@
         </section>
         <!-- promo section end -->
 
-        <!-- best colleges section start -->
+        <!-- best scholarship section start -->
         <section class="py-5">
             <div class="container py-md-4">
                 <div class="d-flex align-items-center gap-3 justify-content-between">
@@ -354,7 +354,7 @@
 
             </div><!-- container -->
         </section>
-        <!-- best colleges section end -->
+        <!-- best scholarship section end -->
 
         <!-- best colleges section start -->
         <section class="py-5 bg-gradient">

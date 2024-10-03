@@ -1,7 +1,7 @@
 <li class="p-3 course__list__card rounded-3">
     <div class="row gx-4 gy-3 gy-lg-0">
         <div class="col-md-4 d-flex">
-            <a href="#" class="d-flex w-100 h-100">
+            <a href="course-details.php" class="d-flex w-100 h-100">
                 <img 
                     src="<?php echo $image; ?>" 
                     alt="Course Image"
@@ -14,7 +14,7 @@
                 <div class="row g-3 gx-lg-4 align-items-center">
                     <div class="col-lg-8">
                         <h2 class="fs-4 fw-semibold">
-                            <a href="#"><?php echo $title; ?></a>
+                            <a href="course-details.php"><?php echo $title; ?></a>
                         </h2>
                         <p class="text-muted fs-15 description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas debitis ipsum est nam facere minima facilis aspernatur nobis culpa? Consequatur aperiam enim facere neque quas.</p>
                         <ul class="ps-0 mb-0 row g-2 row-cols-1 row-cols-sm-2 info__list">
@@ -43,7 +43,7 @@
                     <div class="col-lg-4">
                         <div class="row g-2 row-cols-2 row-cols-sm-2 row-cols-lg-1 action__btns"> 
                             <div> 
-                                <a href="#" class="btn btn-dark w-100 fw-medium">Learn More</a>
+                                <a href="course-details.php" class="btn btn-dark w-100 fw-medium">Learn More</a>
                             </div>
                             <div> 
                                 <a href="#" class="btn btn-primary w-100 fw-medium first__btn">Check Eligibilty</a> 

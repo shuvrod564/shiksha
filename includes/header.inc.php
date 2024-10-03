@@ -21,6 +21,10 @@
                         <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 640 512"><path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM504 312l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"/></svg>
                         <span>Registration</span>
                     </a> 
+                    <a href="user-dashboard.php" class="text-white d-inline-flex gap-2 align-items-center px-3 py-3 py-sm-2 position-relative text-uppercase">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 640 512"><path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM504 312l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"/></svg>
+                        <span>Profile</span>
+                    </a> 
                 </div>
             </div>
         </div><!-- /.container -->
@@ -69,7 +73,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
                         </a> 
                         <ul class="dropdown-menu p-2 rounded-3"> 
-                            <li">
+                            <li>
                                 <a class="dropdown-item" href="college-listing.php">College name one</a> 
                             </li>  
                             <li">
@@ -91,7 +95,7 @@
                          Courses <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
                         </a> 
                         <ul class="dropdown-menu p-2 rounded-3"> 
-                            <li">
+                            <li>
                                 <a class="dropdown-item" href="course-listing.php">Course name one</a> 
                             </li>  
                             <li">
@@ -113,20 +117,20 @@
                             Course in place <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
                         </a> 
                         <ul class="dropdown-menu p-2 rounded-3"> 
-                            <li">
-                                <a class="dropdown-item" href="course-listing.php">Place name one</a> 
+                            <li>
+                                <a class="dropdown-item" href="#">Place name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="course-listing.php">Place name one</a> 
+                                <a class="dropdown-item" href="#">Place name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="course-listing.php">Place name one</a> 
+                                <a class="dropdown-item" href="#">Place name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="course-listing.php">Place name one</a> 
+                                <a class="dropdown-item" href="#">Place name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="course-listing.php">Place name one</a> 
+                                <a class="dropdown-item" href="#">Place name one</a> 
                             </li>  
                         </ul> 
                     </li>  
@@ -135,20 +139,20 @@
                             Hostel <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
                         </a> 
                         <ul class="dropdown-menu p-2 rounded-3"> 
-                            <li">
-                                <a class="dropdown-item" href="listing.php">Hostel name one</a> 
+                            <li>
+                                <a class="dropdown-item" href="#">Hostel name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">Hostel name one</a> 
+                                <a class="dropdown-item" href="#">Hostel name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">Hostel name one</a> 
+                                <a class="dropdown-item" href="#">Hostel name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">Hostel name one</a> 
+                                <a class="dropdown-item" href="#">Hostel name one</a> 
                             </li>  
                             <li">
-                                <a class="dropdown-item" href="listing.php">Hostel name one</a> 
+                                <a class="dropdown-item" href="#">Hostel name one</a> 
                             </li>  
                         </ul> 
                     </li>  
@@ -157,7 +161,7 @@
                         Exams <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
                         </a>  
                         <ul class="dropdown-menu p-2 rounded-3"> 
-                            <li">
+                            <li>
                                 <a class="dropdown-item" href="#">Exams name one</a> 
                             </li>  
                             <li">
@@ -179,7 +183,7 @@
                         Scholarship <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
                         </a> 
                         <ul class="dropdown-menu p-2 rounded-3"> 
-                            <li">
+                            <li>
                                 <a class="dropdown-item" href="#">Scholarship name</a> 
                             </li>  
                             <li">
@@ -212,7 +216,7 @@
    
 
     <div class="offcanvas offcanvas-end sideNav" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
+        <div class="offcanvas-header bg-light">
             <p class="offcanvas-title lead-sm fw-semibold text-primary mb-0" id="offcanvasExampleLabel">Golap Admission</p>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
@@ -222,44 +226,136 @@
                 <li><a href="about.php">About Us</a></li>
                 <li> 
                     <a class="btn__link collapsed" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
-                        Houseboats
+                    Colleges
                     </a>
                     <ul class="collapse" id="collapse1"> 
-                        <li><a href="deluxe-houseboats.php">Delux Houseboats</a></li>
-                        <li><a href="premium-houseboats.php">Premium Houseboats</a></li>
-                        <li><a href="semi-luxury-houseboats.php">Semi Luxury Houseboats</a></li>
-                        <li><a href="luxury-houseboats.php">Luxury Houseboats</a></li>
-                        <li><a href="super-luxury-houseboat.php">Super Luxury Houseboat</a></li> 
+                        <li>
+                            <a class="dropdown-item" href="college-listing.php">College name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="college-listing.php">College name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="college-listing.php">College name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="college-listing.php">College name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="college-listing.php">College name one</a> 
+                        </li>  
                     </ul>
                 </li> 
                 <li> 
                     <a class="btn__link collapsed" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">
-                        Special Packages 
+                    Courses
                     </a>
                     <ul class="collapse" id="collapse2"> 
-                        <li><a href="honeymoon-cruise.php" class="dropdown-item fw-medium">Honeymoon Cruise</a></li>
-                        <li><a href="overnight-cruise.php" class="dropdown-item fw-medium">Overnight Cruise</a></li>
-                        <li><a href="morning-cruise.php" class="dropdown-item fw-medium">Morning Cruise</a></li>
-                        <li><a href="night-cruise.php" class="dropdown-item fw-medium">Night Cruise</a></li>
-                        <li><a href="day-cruise.php" class="dropdown-item fw-medium">Day Cruise</a></li>
-                        <li><a href="wedding-cruise.php" class="dropdown-item fw-medium">Wedding Cruise</a></li>
-                        <li><a href="birthday-cruise.php" class="dropdown-item fw-medium">Birthday Cruise</a></li>
-                        <li><a href="family-cruise.php" class="dropdown-item fw-medium">Family Cruise</a></li>
-                        <li><a href="bachelor-friendly-cruise.php" class="dropdown-item fw-medium">Bachelor Friendly Cruise </a></li>
+                        <li>
+                            <a class="dropdown-item" href="course-listing.php">Course name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="course-listing.php">Course name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="course-listing.php">Course name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="course-listing.php">Course name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="course-listing.php">Course name one</a> 
+                        </li>  
                     </ul>
                 </li> 
                 <li>
                     <a class="btn__link collapsed" data-bs-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3">
-                        Experience
+                    Course in place
                     </a>
                     <ul class="collapse" id="collapse3"> 
-                        <li><a href="houseboat-alleppey.php">Houseboat in Alleppey</a></li>
-                        <li><a href="kayaking-alleppey.php">Kayaking in Alleppey</a></li>
-                        <li><a href="shikara-ride-alleppey.php">Shikara Ride in Alleppey</a></li>
-                        <li><a href="canoeing-alleppey.php"> Canoeing in Alleppey</a></li> 
+                        <li>
+                            <a class="dropdown-item" href="#">Place name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Place name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Place name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Place name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Place name one</a> 
+                        </li>  
                     </ul>
                 </li>   
-                <li><a href="blog/">Blog</a></li>
+                <li>
+                    <a class="btn__link collapsed" data-bs-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapse4">
+                    Hostel
+                    </a>
+                    <ul class="collapse" id="collapse4"> 
+                        <li>
+                            <a class="dropdown-item" href="#">Hostel name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Hostel name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Hostel name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Hostel name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Hostel name one</a> 
+                        </li>  
+                    </ul>
+                </li>   
+                <li>
+                    <a class="btn__link collapsed" data-bs-toggle="collapse" href="#collapse5" role="button" aria-expanded="false" aria-controls="collapse5">
+                    Exams
+                    </a>
+                    <ul class="collapse" id="collapse5"> 
+                        <li>
+                            <a class="dropdown-item" href="#">Exams name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Exams name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Exams name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Exams name one</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Exams name one</a> 
+                        </li>  
+                    </ul>
+                </li>   
+                <li>
+                    <a class="btn__link collapsed" data-bs-toggle="collapse" href="#collapse6" role="button" aria-expanded="false" aria-controls="collapse6">
+                    Scholarship
+                    </a>
+                    <ul class="collapse" id="collapse6"> 
+                        <li>
+                            <a class="dropdown-item" href="#">Scholarship name</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Scholarship name</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Scholarship name</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Scholarship name</a> 
+                        </li>  
+                        <li">
+                            <a class="dropdown-item" href="#">Scholarship name</a> 
+                        </li>  
+                    </ul>
+                </li>    
                 <li><a href="contact.php">Contact Us</a></li>
             </ul>
         </div>

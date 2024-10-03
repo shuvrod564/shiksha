@@ -64,7 +64,6 @@
 /*----- Hero Search For styles ------*/
 .form__box .form-control, .form__box .form-select {
   height: 4rem;
-  border-radius: 0%;
 }
 .form__box .btn-primary {
   height: 4rem;
@@ -296,4 +295,132 @@
 }
 .course__list__card .action__btns .btn.second__btn:focus, .course__list__card .action__btns .btn.second__btn:hover, .course__list__card .action__btns .btn.second__btn:active {
   filter: brightness(115%);
+}
+
+.college__detail__header .banner {
+  height: 20rem;
+}
+.college__detail__header .logo__box {
+  bottom: 2rem;
+  left: 2rem;
+  width: 6rem;
+  height: 6rem;
+  box-shadow: 0.25rem 0.51rem 1rem 2rem rgba(255, 255, 255, 0.4431372549);
+}
+
+.custom__nav {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  padding-bottom: 0.5rem;
+}
+.custom__nav .nav-link {
+  color: #333;
+  position: relative;
+  white-space: nowrap;
+}
+.custom__nav .nav-link.active {
+  color: var(--brand);
+}
+.custom__nav .nav-link.active::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: var(--brand);
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0%;
+  border-radius: 4px;
+}
+
+.page__header .info__list {
+  max-width: 600px;
+}
+.page__header .info__list svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: var(--white);
+  opacity: 0.75;
+}
+
+.provided__course__box {
+  background-color: #333d47;
+}
+
+.interest__box {
+  background-color: #4b67b1;
+}
+
+.btn-councelling {
+  background-color: #f15930;
+  border-color: #f15930;
+  color: var(--white);
+}
+.btn-councelling:hover, .btn-councelling:focus, .btn-councelling:active {
+  background-color: transparent;
+  border-color: #f15930;
+  color: #f15930 !important;
+}
+
+.question__box {
+  background-color: #00444f;
+}
+
+.share__box {
+  background-color: #056258;
+}
+
+/*---- User profile link list styles ----*/
+.user__profile__thumbnail {
+  width: 6rem;
+  height: 6rem;
+}
+
+.profile__link__list li a {
+  width: 90%;
+  border-radius: 0 2rem 2rem 0;
+  color: #747474;
+  padding: 0.65rem 1rem;
+  font-weight: 500;
+}
+.profile__link__list li a svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: #747474;
+}
+.profile__link__list li.active a {
+  background-color: var(--light-bg);
+  color: var(--brand);
+}
+.profile__link__list li.active a svg {
+  fill: var(--brand);
+}
+
+.border-light {
+  border-color: #e9e9e9 !important;
+}
+
+@media (max-width: 991px) {
+  .profile__link__list {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.5rem 1rem !important;
+  }
+  .profile__link__list li {
+    display: inline-block;
+  }
+  .profile__link__list li a {
+    white-space: nowrap;
+    border-radius: 3rem;
+    padding: 0.5rem 1.5rem;
+    width: auto;
+    background-color: var(--light-bg);
+  }
+  .profile__link__list li a svg {
+    min-width: 1.25rem;
+  }
+  .user__profile__thumbnail {
+    width: 4rem;
+    height: 4rem;
+  }
 }/*# sourceMappingURL=style.css.map */
