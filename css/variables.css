@@ -173,8 +173,9 @@ ul li {
   color: var(--white);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: var(--dark);
-  border-color: var(--dark);
+  background-color: var(--white);
+  border-color: var(--white);
+  color: var(--dark);
 }
 
 .btn-outline-primary {

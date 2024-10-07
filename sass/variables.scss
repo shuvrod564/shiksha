@@ -111,7 +111,7 @@ ul {
     background-color: var(--brand);border-color: var(--brand);color: var(--white);  
 
     &:hover, &:focus, &:active {
-        background-color: var(--dark);border-color: var(--dark);
+        background-color: var(--white);border-color: var(--white);color: var(--dark);
     } 
 }
 .btn-outline-primary {

@@ -517,6 +517,10 @@
   color: var(--white);
 }
 
+.btn__search:hover svg, .btn__search:active svg, .btn__search:focus svg {
+  fill: var(--dark);
+}
+
 @media (max-width: 575px) {
   .btn__search {
     width: 100%;

@@ -202,7 +202,6 @@
 }
 
 .coustom__table{
-
     border: 1px solid #E7F4FF;
     th, td {
         padding: .75rem 2rem;
@@ -213,6 +212,9 @@
     }
 }
 
+.btn__search:hover,.btn__search:active,.btn__search:focus {
+    svg{fill: var(--dark)}
+}
 @media (max-width: 575px) {
     .btn__search{width: 100%;}
 }
