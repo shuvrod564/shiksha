@@ -184,3 +184,36 @@
         &.wp svg { fill: #29a628; }
     }
 }
+
+.reviews__wrapper {
+
+    .progress{height: 0.5rem;}
+
+    .progress, .progress-stacked {
+          --bs-progress-bar-bg: #198754;
+          background-color: #c5cacf;
+    }
+}
+
+.blog__card{
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.0509803922);
+    border: 1px solid #E7F4FF;
+    padding: 0.75rem;
+}
+
+.coustom__table{
+
+    border: 1px solid #E7F4FF;
+    th, td {
+        padding: .75rem 2rem;
+    }
+    th {
+        background: var(--brand) !important;
+        color: var(--white);
+    }
+}
+
+@media (max-width: 575px) {
+    .btn__search{width: 100%;}
+}
+

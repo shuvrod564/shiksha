@@ -42,19 +42,13 @@
                                     <option value="MCA">MCA</option>
                                 </select>
                             </div>
-                            <div class="col-sm-6 col-md-5 col-lg-3 ">
+                            <div class="col-sm-6 col-md-5 col-lg-4 ">
                                 <select name="category" id="category" class="form-select select2 border-0 px-4">
                                     <option value="Level" disabled>Level</option>
                                     <option value="Bigineer">Bigineer</option>
                                     <option value="Expert">Expert</option>
                                     <option value="Professional">Professional</option> 
                                 </select>
-                            </div>
-                            <div class="col-md-2 col-lg-1">
-                                <button class="btn btn-primary w-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
-                                    <span class="d-md-none">SEARCH</span>
-                                </button>
                             </div>
                         </div>
                     </div>
@@ -71,6 +65,12 @@
                         <div class="col-lg-3 col-sm-6">
                             <input type="text" name="city" class="form-control border-white py-3 px-4" placeholder="City name">
                         </div>
+                    </div>
+                    <div class="mt-2 text-center">
+                        <button class="btn btn-primary px-5 py-3 btn__search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                            <span class="ps-3 lead-sm fw-medium">SEARCH</span>
+                        </button>
                     </div>
 
                     <?php include('includes/letter-filter.inc.php'); ?>

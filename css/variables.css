@@ -124,6 +124,10 @@ body {
   letter-spacing: 1px;
 }
 
+.lh-1 {
+  line-height: 0.95;
+}
+
 .link {
   color: var(--brand);
   cursor: pointer;
