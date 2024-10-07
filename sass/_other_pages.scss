@@ -39,12 +39,23 @@
 
 .college__detail__header {
     .banner {
-        height: 20rem;
+        height: 34rem;
     }
     .logo__box {
         bottom: 2rem;left: 2rem;width: 6rem;height: 6rem;
-        box-shadow: 0.25rem .51rem 1rem 2rem #ffffff71;
+        box-shadow: 0.25rem .51rem 1rem 2rem #ffffff23;
     }
+    .gradient__bg {
+        background: linear-gradient(90deg, #000000cc, #ffffff59);
+    }
+}
+@media(max-width:575px) {
+    .college__detail__header {
+        .banner {
+            height: 25rem;
+        } 
+    }
+     
 }
 
 .custom__nav {
@@ -95,6 +106,15 @@
     background-color: #056258;
 }
 
+/*---- Related videos styles -----*/
+.related__videos__box {
+    iframe, img { height: 9rem;width: 100%;object-fit: cover;margin: 0; }
+} 
+.related__albums__box {
+    iframe { height: 8rem;width: 100%;object-fit: cover;margin: 0; }
+    img { height: 9rem;width: 100%;object-fit: cover;margin: 0; }
+} 
+
 
 /*---- User profile link list styles ----*/
 .user__profile__thumbnail { width: 6rem;height: 6rem; }
@@ -138,4 +158,29 @@
         }
     }
     .user__profile__thumbnail { width: 4rem;height: 4rem; }
+}
+
+.like__btn {
+    font-size: 13px;
+    color: #aaa;
+    svg { fill: #aaa;width: 1.125rem;height: 1.125rem; }
+
+    &:hover, &:focus, &:active {
+        color: var(--brand);
+        svg { fill: var(--brand); }
+    }
+}
+
+.social__share__box {
+    a {
+        svg { width: 3rem;height: 3rem; }
+
+
+        &.fb svg { fill: #3b5998; }
+        &.tw svg { fill: #000000; }
+        &.ld svg { fill: #007bb6; }
+        &.pin svg { fill: #cb2027; }
+        &.gmail svg { fill: #3490F3; }
+        &.wp svg { fill: #29a628; }
+    }
 }

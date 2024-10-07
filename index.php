@@ -356,7 +356,7 @@
         </section>
         <!-- best scholarship section end -->
 
-        <!-- best colleges section start -->
+        <!-- gallery section start -->
         <section class="py-5 bg-gradient">
             <div class="container py-md-4">
                 <h2 class="fs-1 fw-bold text-primary text-uppercase text-center mb-4">Videos</h2>
@@ -404,7 +404,7 @@
  
             </div><!-- container -->
         </section>
-        <!-- best colleges section end -->
+        <!-- gallery section end -->
 
         <!-- top derstinations section start -->
         <section class="py-5">

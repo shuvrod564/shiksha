@@ -180,6 +180,21 @@ document.getElementById('toggleSignupPassword').addEventListener('click', functi
         1400: { items: 3, }, 
     } 
   });
+
+  $(".heroBannerCarousel").owlCarousel({
+    autoplay: true, 
+    autoplayHoverPause: true,
+    smartSpeed: 550,
+    responsiveClass: true,
+    autoplayTimeout: 3000,
+    autoplaySpeed: 3000,
+    loop: true,
+    margin: 0,
+    items: 1,
+    nav: false,
+    dots: false,  
+    animateOut: 'fadeOut'
+  });
   
 
   

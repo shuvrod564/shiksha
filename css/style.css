@@ -298,16 +298,24 @@
 }
 
 .college__detail__header .banner {
-  height: 20rem;
+  height: 34rem;
 }
 .college__detail__header .logo__box {
   bottom: 2rem;
   left: 2rem;
   width: 6rem;
   height: 6rem;
-  box-shadow: 0.25rem 0.51rem 1rem 2rem rgba(255, 255, 255, 0.4431372549);
+  box-shadow: 0.25rem 0.51rem 1rem 2rem rgba(255, 255, 255, 0.137254902);
+}
+.college__detail__header .gradient__bg {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.3490196078));
 }
 
+@media (max-width: 575px) {
+  .college__detail__header .banner {
+    height: 25rem;
+  }
+}
 .custom__nav {
   overflow-x: auto;
   flex-wrap: nowrap;
@@ -369,6 +377,27 @@
   background-color: #056258;
 }
 
+/*---- Related videos styles -----*/
+.related__videos__box iframe, .related__videos__box img {
+  height: 9rem;
+  width: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+
+.related__albums__box iframe {
+  height: 8rem;
+  width: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+.related__albums__box img {
+  height: 9rem;
+  width: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+
 /*---- User profile link list styles ----*/
 .user__profile__thumbnail {
   width: 6rem;
@@ -423,4 +452,42 @@
     width: 4rem;
     height: 4rem;
   }
+}
+.like__btn {
+  font-size: 13px;
+  color: #aaa;
+}
+.like__btn svg {
+  fill: #aaa;
+  width: 1.125rem;
+  height: 1.125rem;
+}
+.like__btn:hover, .like__btn:focus, .like__btn:active {
+  color: var(--brand);
+}
+.like__btn:hover svg, .like__btn:focus svg, .like__btn:active svg {
+  fill: var(--brand);
+}
+
+.social__share__box a svg {
+  width: 3rem;
+  height: 3rem;
+}
+.social__share__box a.fb svg {
+  fill: #3b5998;
+}
+.social__share__box a.tw svg {
+  fill: #000000;
+}
+.social__share__box a.ld svg {
+  fill: #007bb6;
+}
+.social__share__box a.pin svg {
+  fill: #cb2027;
+}
+.social__share__box a.gmail svg {
+  fill: #3490F3;
+}
+.social__share__box a.wp svg {
+  fill: #29a628;
 }/*# sourceMappingURL=style.css.map */
