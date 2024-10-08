@@ -32,7 +32,7 @@
                             <div class="col-lg-5 divider first">
                                 <input type="text" name="search" class="form-control border-0 ps-4" placeholder="Search college name here">
                             </div>
-                            <div class="col-sm-6 col-md-5 col-lg-3 divider second">
+                            <div class="col-sm-6 col-md-6 col-lg-3 divider second">
                                 <select name="category" id="category" class="form-select select2 border-0 px-4">
                                     <option value="Category / Department" disabled selected>Category / Department</option>
                                     <option value="B.E. / B.Tech">B.E. / B.Tech</option>
@@ -42,7 +42,7 @@
                                     <option value="MCA">MCA</option>
                                 </select>
                             </div>
-                            <div class="col-sm-6 col-md-5 col-lg-4 ">
+                            <div class="col-sm-6 col-md-6 col-lg-4 ">
                                 <select name="category" id="category" class="form-select select2 border-0 px-4">
                                     <option value="Level" disabled selected>Level</option>
                                     <option value="Bigineer">Bigineer</option>

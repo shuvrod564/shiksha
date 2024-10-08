@@ -21,10 +21,17 @@
                         <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 640 512"><path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM504 312l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"/></svg>
                         <span>Registration</span>
                     </a> 
-                    <a href="user-dashboard.php" class="text-white d-inline-flex gap-2 align-items-center px-3 py-3 py-sm-2 position-relative text-uppercase">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 640 512"><path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM504 312l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"/></svg>
-                        <span>Profile</span>
-                    </a> 
+                    <div class="dropdown">
+                        <a href="#" type="button" data-bs-toggle="dropdown" aria-expanded="false" class="text-white d-inline-flex gap-2 align-items-center px-3 py-3 py-sm-2 position-relative text-uppercase no__after">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 512 512"><path d="M399 384.2C376.9 345.8 335.4 320 288 320l-64 0c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z"/></svg>
+                            <span>Profile</span>
+                        </a> 
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="user-dashboard.php">Dashboard</a></li>
+                            <li><a class="dropdown-item" href="user-profile.php">Profile</a></li>
+                            <li><a class="dropdown-item" href="login.php">Logout</a></li>
+                        </ul>
+                    </div> 
                 </div>
             </div>
         </div><!-- /.container -->
@@ -201,6 +208,161 @@
                         </ul> 
                     </li>    
                     <li class="nav-item ms-1 ms-xxl-3 dropdown"> 
+                        <a class="nav-link" href="contact.php">
+                            Contact us 
+                        </a>  
+                    </li>  
+                </ul> 
+            </div>   
+                  
+             
+        </div>
+    </nav>
+    <?php if(isset($profileNav) && $profileNav == 'true'){ ?>
+    <nav class="navbar navbar-expand-lg white__menu bg-white d-none d-lg-block" id="mainNav">
+        <div class="container">  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto"> 
+                    <li class="nav-item ms-1 ms-xxl-3">
+                        <a class="nav-link" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item ms-1 ms-xxl-3">
+                        <a class="nav-link" href="about.php">About us</a>
+                    </li>
+                    <li class="nav-item ms-1 ms-xxl-3 dropdown"> 
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Colleges
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+                        </a> 
+                        <ul class="dropdown-menu p-2 rounded-3"> 
+                            <li>
+                                <a class="dropdown-item" href="college-listing.php">College name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="college-listing.php">College name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="college-listing.php">College name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="college-listing.php">College name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="college-listing.php">College name one</a> 
+                            </li>  
+                        </ul> 
+                    </li>  
+                    <li class="nav-item ms-1 ms-xxl-3 dropdown"> 
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Courses <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+                        </a> 
+                        <ul class="dropdown-menu p-2 rounded-3"> 
+                            <li>
+                                <a class="dropdown-item" href="course-listing.php">Course name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="course-listing.php">Course name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="course-listing.php">Course name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="course-listing.php">Course name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="course-listing.php">Course name one</a> 
+                            </li>  
+                        </ul> 
+                    </li>  
+                    <li class="nav-item ms-1 ms-xxl-3 dropdown"> 
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Course in place <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+                        </a> 
+                        <ul class="dropdown-menu p-2 rounded-3"> 
+                            <li>
+                                <a class="dropdown-item" href="#">Place name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Place name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Place name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Place name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Place name one</a> 
+                            </li>  
+                        </ul> 
+                    </li>  
+                    <li class="nav-item ms-1 ms-xxl-3 dropdown"> 
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Hostel <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+                        </a> 
+                        <ul class="dropdown-menu p-2 rounded-3"> 
+                            <li>
+                                <a class="dropdown-item" href="#">Hostel name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Hostel name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Hostel name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Hostel name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Hostel name one</a> 
+                            </li>  
+                        </ul> 
+                    </li>  
+                    <li class="nav-item ms-1 ms-xxl-3 dropdown"> 
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Exams <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+                        </a>  
+                        <ul class="dropdown-menu p-2 rounded-3"> 
+                            <li>
+                                <a class="dropdown-item" href="#">Exams name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Exams name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Exams name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Exams name one</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Exams name one</a> 
+                            </li>  
+                        </ul> 
+                    </li>  
+                    <li class="nav-item ms-1 ms-xxl-3 dropdown"> 
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Scholarship <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+                        </a> 
+                        <ul class="dropdown-menu p-2 rounded-3"> 
+                            <li>
+                                <a class="dropdown-item" href="#">Scholarship name</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Scholarship name</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Scholarship name</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Scholarship name</a> 
+                            </li>  
+                            <li">
+                                <a class="dropdown-item" href="#">Scholarship name</a> 
+                            </li>  
+                        </ul> 
+                    </li>    
+                    <li class="nav-item ms-1 ms-xxl-3 dropdown"> 
                         <a class="nav-link" href="#">
                             Contact us 
                         </a>  
@@ -211,6 +373,7 @@
              
         </div>
     </nav>
+    <?php }?> 
     <!-- navigation end --> 
 
    
@@ -484,7 +647,7 @@
              
             <ul class="cart__list d-flex flex-column gap-3 list-unstyled ps-0 mb-0">
                 <li class="d-flex flex-row gap-3 align-items-center">
-                    <a href="product-detail.php" class="thumbnail rounded-2">
+                    <a href="course-details.php" class="thumbnail rounded-2">
                         <img 
                             src="assets/images/global/course-1.jpg" 
                             alt="Product Image"
@@ -492,14 +655,17 @@
                         >
                     </a>
                     <div class="col">
-                        <p class="fw-semibold mb-1">
-                            <a href="product-detail.php" class="ellipsis-1">Lorem ipsum dolor</a>
+                        <p class="fw-semibold mb-1 lh-sm">
+                            <a href="course-details.php" class="ellipsis-1">Lorem ipsum dolor</a>
                         </p> 
-                        <p class="mb-0 text-muted">2 x 1 300 FCFA</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <p class="mb-0 text-muted">2 x 1 300 INR</p>
+                            <a href="#" class="text-danger text-uppercase fw-bold small ms-3">Remove</a>
+                        </div>
                     </div>
                 </li>
                 <li class="d-flex flex-row gap-3 align-items-center">
-                    <a href="product-detail.php" class="thumbnail rounded-2">
+                    <a href="course-details.php" class="thumbnail rounded-2">
                         <img 
                             src="assets/images/global/course-2.jpg" 
                             alt="Product Image"
@@ -507,14 +673,17 @@
                         >
                     </a>
                     <div class="col">
-                        <p class="fw-semibold mb-1">
-                            <a href="product-detail.php" class="ellipsis-1">Lorem ipsum dolor sit</a>
+                        <p class="fw-semibold mb-1 lh-sm">
+                            <a href="course-details.php" class="ellipsis-1">Lorem ipsum dolor sit</a>
                         </p> 
-                        <p class="mb-0 text-muted">2 x 1 300 FCFA</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <p class="mb-0 text-muted">2 x 1 300 INR</p>
+                            <a href="#" class="text-danger text-uppercase fw-bold small ms-3">Remove</a>
+                        </div>
                     </div>
                 </li>
                 <li class="d-flex flex-row gap-3 align-items-center">
-                    <a href="product-detail.php" class="thumbnail rounded-2">
+                    <a href="course-details.php" class="thumbnail rounded-2">
                         <img 
                             src="assets/images/global/course-3.jpg" 
                             alt="Product Image"
@@ -522,14 +691,17 @@
                         >
                     </a>
                     <div class="col">
-                        <p class="fw-semibold mb-1">
-                            <a href="product-detail.php" class="ellipsis-1">Lorem ipsum dolor sit amet</a>
+                        <p class="fw-semibold mb-1 lh-sm">
+                            <a href="course-details.php" class="ellipsis-1">Lorem ipsum dolor sit amet</a>
                         </p> 
-                        <p class="mb-0 text-muted">2 x 1 300 FCFA</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <p class="mb-0 text-muted">2 x 1 300 INR</p>
+                            <a href="#" class="text-danger text-uppercase fw-bold small ms-3">Remove</a>
+                        </div>
                     </div>
                 </li>
                 <li class="d-flex flex-row gap-3 align-items-center">
-                    <a href="product-detail.php" class="thumbnail rounded-4">
+                    <a href="course-details.php" class="thumbnail rounded-4">
                         <img 
                             src="assets/images/global/course-4.jpg" 
                             alt="Product Image"
@@ -537,14 +709,17 @@
                         >
                     </a>
                     <div class="col">
-                        <p class="fw-semibold mb-1">
-                            <a href="product-detail.php" class="ellipsis-1">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                        <p class="fw-semibold mb-1 lh-sm">
+                            <a href="course-details.php" class="ellipsis-1">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
                         </p> 
-                        <p class="mb-0 text-muted">2 x 1 300 FCFA</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <p class="mb-0 text-muted">2 x 1 300 INR</p>
+                            <a href="#" class="text-danger text-uppercase fw-bold small ms-3">Remove</a>
+                        </div>
                     </div>
                 </li>
                 <li class="d-flex flex-row gap-3 align-items-center">
-                    <a href="product-detail.php" class="thumbnail rounded-4">
+                    <a href="course-details.php" class="thumbnail rounded-4">
                         <img 
                             src="assets/images/global/course-5.jpg" 
                             alt="Product Image"
@@ -552,14 +727,17 @@
                         >
                     </a>
                     <div class="col">
-                        <p class="fw-semibold mb-1">
-                            <a href="product-detail.php" class="ellipsis-1">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                        <p class="fw-semibold mb-1 lh-sm">
+                            <a href="course-details.php" class="ellipsis-1">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
                         </p> 
-                        <p class="mb-0 text-muted">2 x 1 300 FCFA</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <p class="mb-0 text-muted">2 x 1 300 INR</p>
+                            <a href="#" class="text-danger text-uppercase fw-bold small ms-3">Remove</a>
+                        </div>
                     </div>
                 </li>
                 <li class="d-flex flex-row gap-3 align-items-center">
-                    <a href="product-detail.php" class="thumbnail rounded-4">
+                    <a href="course-details.php" class="thumbnail rounded-4">
                         <img 
                             src="assets/images/global/course-6.jpg" 
                             alt="Product Image"
@@ -567,10 +745,13 @@
                         >
                     </a>
                     <div class="col">
-                        <p class="fw-semibold mb-1">
-                            <a href="product-detail.php" class="ellipsis-1">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                        <p class="fw-semibold mb-1 lh-sm">
+                            <a href="course-details.php" class="ellipsis-1">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
                         </p> 
-                        <p class="mb-0 text-muted">2 x 1 300 FCFA</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <p class="mb-0 text-muted">2 x 1 300 INR</p>
+                            <a href="#" class="text-danger text-uppercase fw-bold small ms-3">Remove</a>
+                        </div>
                     </div>
                 </li>
             </ul> 

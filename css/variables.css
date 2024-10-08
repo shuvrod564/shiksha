@@ -173,9 +173,9 @@ ul li {
   color: var(--white);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: var(--white);
-  border-color: var(--white);
-  color: var(--dark);
+  background-color: var(--blue);
+  border-color: var(--blue);
+  color: var(--white);
 }
 
 .btn-outline-primary {
@@ -325,6 +325,9 @@ ul li {
 .top__nav .action__box a:hover {
   background-color: rgba(255, 255, 255, 0.0666666667);
 }
+.top__nav .action__box a.no__after::after {
+  content: none;
+}
 
 @media (max-width: 575px) {
   .top__nav .action__box svg {
@@ -366,6 +369,12 @@ ul li {
 .navbar .nav-item.active .nav-link.btn-primary {
   color: var(--white);
   background-color: var(--dark);
+}
+.navbar.white__menu .nav-item .nav-link {
+  color: var(--dark);
+}
+.navbar.white__menu .nav-item .nav-link svg {
+  fill: var(--dark);
 }
 .navbar .dropdown {
   -webkit-appearance: none;
@@ -585,6 +594,14 @@ ul li {
 }
 .cartNav .offcanvas__footer {
   background-color: var(--muted-color);
+}
+.cartNav .offcanvas__footer .btn-primary:hover, .cartNav .offcanvas__footer .btn-primary:focus, .cartNav .offcanvas__footer .btn-primary:active {
+  background-color: transparent;
+  border-color: var(--brand);
+  color: var(--brand);
+}
+.cartNav .offcanvas__footer .btn-primary:hover svg path, .cartNav .offcanvas__footer .btn-primary:focus svg path, .cartNav .offcanvas__footer .btn-primary:active svg path {
+  fill: var(--brand);
 }
 
 .call__action__btn {

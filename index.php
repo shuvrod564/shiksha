@@ -31,7 +31,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea iusto eaque expedita voluptate maxime itaque inventore quidem voluptatum animi architecto quasi, accusamus perspiciatis provident asperiores.
                 </p>
 
-                <form action="#" class="form__box col-lg-8 mx-auto p-1 rounded-3 bg-white mb-lg-5">
+                <form action="#" class="form__box home__filter col-lg-8 mx-auto p-1 rounded-3 bg-white mb-lg-5">
                     <div class="row g-0">
                         <div class="col-md-4 divider">
                             <select name="category" id="category" class="form-select select2 border-0">
@@ -140,31 +140,40 @@
                 <div class="row g-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-3 col-6">
                         <div class="cases__card">
-                            <h2 class="display-4 text-primary text-center fw-bold d-block mb-1 lh-1"> <span class="counter" data-count="10" ended="true">0</span>K</h2>
+                            <h2 class="display-4 text-primary text-center fw-bold d-block mb-1 lh-1">
+                                <span class="counter" data-count="10" ended="false">0</span>K
+                            </h2>
                             <p class="fs-5 text-center text-dark mb-0">Online Courses</p>
                         </div>
-                    </div><!--//.col-->
+                    </div>
                     <div class="col-lg-3 col-6">
                         <div class="cases__card">
-                            <h2 class="display-4 text-primary text-center fw-bold d-block mb-1 lh-1"><span class="counter" data-count="100" ended="true">0</span>+</h2>
+                            <h2 class="display-4 text-primary text-center fw-bold d-block mb-1 lh-1">
+                                <span class="counter" data-count="100" ended="false">0</span>+
+                            </h2>
                             <p class="fs-5 text-center text-dark mb-0">Expert Tutors</p>
                         </div>
-                    </div><!--//.col-->
+                    </div>
                     <div class="col-lg-3 col-6">
                         <div class="cases__card">
-                            <h2 class="display-4 text-primary text-center fw-bold d-block mb-1 lh-1"><span class="counter" data-count="60" ended="true">0</span>K+</h2>
+                            <h2 class="display-4 text-primary text-center fw-bold d-block mb-1 lh-1">
+                                <span class="counter" data-count="60" ended="false">0</span>K+
+                            </h2>
                             <p class="fs-5 text-center text-dark mb-0">Online Students</p>
                         </div>
-                    </div><!--//.col-->
+                    </div>
                     <div class="col-lg-3 col-6">
                         <div class="cases__card">
-                            <h2 class="display-4 text-primary text-center fw-bold d-block mb-1 lh-1"><span class="counter" data-count="6" ended="true">0</span>K+</h2>
+                            <h2 class="display-4 text-primary text-center fw-bold d-block mb-1 lh-1">
+                                <span class="counter" data-count="6" ended="false">0</span>K+
+                            </h2>
                             <p class="fs-5 text-center text-dark mb-0">Certified Courses</p>
                         </div>
-                    </div><!--//.col-->
-                </div><!--//.row-->
-            </div><!--//.container-->
+                    </div>
+                </div>
+            </div>
         </section>
+
 
         <!-- best course section start -->
         <section class="py-5">
@@ -406,6 +415,31 @@
         </section>
         <!-- gallery section end -->
 
+        <!-- college listing section start -->
+        <div class="text-white py-5" style="background:#08529c;">
+            <div class="container py-md-5">
+                <div class="row g-4 gx-lg-5 align-items-center">
+                    <div class="col-lg-6">
+                        <h2 class="fs-1 mb-3 fw-bold text-uppercase text-white">
+                            Add Your College to Our Platform
+                        </h2>
+                        <p class="text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsum, laboriosam provident corrupti repellat repellendus nulla eos ut dolor quidem at, accusamus quos necessitatibus officiis expedita ad in aut magnam iusto similique? Eveniet, tempora placeat!
+                        </p>
+                        <a href="#" class="btn btn-white px-4 py-3 fs-5 text-uppercase">Get Started</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <img 
+                            src="assets/images/global/college-lisitng.jpg"  
+                            alt="Banner Image"
+                            class="img-fluid rounded-4 w-100"
+                        >
+                    </div>
+                </div>
+            </div><!-- /.container -->
+        </div>
+        <!-- college listing section end -->
+
         <!-- top derstinations section start -->
         <section class="py-5">
             <div class="container py-md-4">
@@ -543,6 +577,31 @@
             </div><!-- container -->
         </section>
         <!-- best hostels section end -->
+
+        <!-- hostel listing section start -->
+        <div class="py-5">
+            <div class="container">
+                <div class="row g-4 gx-lg-5 align-items-center">
+                <div class="col-lg-6">
+                        <img 
+                            src="assets/images/global/hostel-listing.webp"  
+                            alt="Banner Image"
+                            class="img-fluid rounded-4 w-100"
+                        >
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="fs-1 mb-3 fw-bold text-uppercase text-dark">
+                            Add Your Hostel to Our Platform
+                        </h2>
+                        <p class="">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsum, laboriosam provident corrupti repellat repellendus nulla eos ut dolor quidem at, accusamus quos necessitatibus officiis expedita ad in aut magnam iusto similique? Eveniet, tempora placeat!
+                        </p>
+                        <a href="#" class="btn btn-primary px-4 py-3 fs-5 text-uppercase">Get Started</a>
+                    </div> 
+                </div>
+            </div><!-- /.container -->
+        </div>
+        <!-- hostel listing section end -->
  
     </main>
  
@@ -552,7 +611,6 @@
 
     <script>
         $(document).ready(function($) {
-            //Check if an element was in a screen
             function isScrolledIntoView(elem){
                 var docViewTop = $(window).scrollTop();
                 var docViewBottom = docViewTop + $(window).height();
@@ -560,42 +618,41 @@
                 var elemBottom = elemTop + $(elem).height();
                 return ((elemBottom <= docViewBottom));
             }
-            //Count up code
+
             function countUp() {
                 $('.counter').each(function() {
-                    var $this = $(this), // <- Don't touch this variable. It's pure magic.
-                        countTo = $this.attr('data-count');
+                    var $this = $(this),
+                        countTo = $this.attr('data-count'),
                         ended = $this.attr('ended');
 
-                if ( ended != "true" && isScrolledIntoView($this) ) {
-                    $({ countNum: $this.text()}).animate({
-                    countNum: countTo
-                    },
-                    {
-                    duration: 2500, //duration of counting
-                    easing: 'swing',
-                    step: function() {
-                        $this.text(Math.floor(this.countNum));
-                    },
-                    complete: function() {
-                        $this.text(this.countNum);
+                    if (ended != "true" && isScrolledIntoView($this)) {
+                        $({ countNum: $this.text() }).animate({
+                            countNum: countTo
+                        }, {
+                            duration: 2500,
+                            easing: 'swing',
+                            step: function() {
+                                $this.text(Math.floor(this.countNum));
+                            },
+                            complete: function() {
+                                $this.text(this.countNum);
+                            }
+                        });
+                        $this.attr('ended', 'true');
                     }
-                    });
-                $this.attr('ended', 'true');
-                }
                 });
             }
-            //Start animation on page-load
-            if ( isScrolledIntoView(".counter") ) {
+
+            if (isScrolledIntoView(".counter")) {
                 countUp();
             }
-            //Start animation on screen
+
             $(document).scroll(function() {
-                if ( isScrolledIntoView(".counter") ) {
+                if (isScrolledIntoView(".counter")) {
                     countUp();
                 }
             });
-            });
+        }); 
     </script>
  
 </body>

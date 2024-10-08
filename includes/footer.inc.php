@@ -1,60 +1,60 @@
     
     <!-- subscribtion wrapper start -->
-     <div class="pt-5 newsletter__wrapper position-relative z-3">
-        <div class="container">
-            <div class="p-4 p-md-5  rounded-4" style="background:var(--blue);">
-                <h2 class="fs-2 text-white text-center fw-bold">Subscribe to our Newsletter</h2>
-                <p class="fs-5 text-white text-center mb-4">Hostel Notidication News Update</p>
-                <form action="#" method="post">
-                    <div class="row g-3">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="input__group">
-                                <label for="name" class="label">Full name</label>
-                                <input type="name" id="name" class="form-control" placeholder="">
-                            </div> 
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="input__group">
-                                <label for="phone" class="label">Phone number</label>
-                                <input type="text" id="phone" class="form-control" placeholder="">
-                            </div> 
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="input__group">
-                                <label for="email" class="label">Email</label>
-                                <input type="email" id="email" class="form-control" placeholder="">
-                            </div> 
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="input__group">
-                                <label for="country" class="label">Country</label>
-                                <input type="text" id="country" class="form-control" placeholder="">
-                            </div> 
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="input__group">
-                                <label for="college" class="label">College name</label>
-                                <input type="text" id="college" class="form-control" placeholder="">
-                            </div> 
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="input__group">
-                                <label for="course" class="label">Course name</label>
-                                <input type="text" id="course" class="form-control" placeholder="">
-                            </div> 
-                        </div>
-                        <div class="col-12 text-center"> 
-                            <button type="submit" class="btn btn-outline-white border-2 px-5 py-3 fs-5 gap-3 mt-3">
-                                Subscribe
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 56 56"><path fill="white" d="M49.762 28c0-.586-.234-1.125-.703-1.57L33.543 10.938c-.516-.516-1.031-.704-1.594-.704c-1.148 0-2.039.844-2.039 2.016c0 .563.188 1.101.563 1.477l5.25 5.343l7.898 7.196l-5.672-.352H8.301c-1.195 0-2.063.867-2.063 2.086s.867 2.086 2.063 2.086h29.648l5.696-.352l-7.922 7.196l-5.25 5.343c-.375.352-.563.914-.563 1.477c0 1.172.89 2.016 2.04 2.016c.562 0 1.054-.211 1.523-.657L49.059 29.57c.469-.445.703-.984.703-1.57"/></svg>
-                            </button>
-                        </div>
+    <div class="pt-5 newsletter__wrapper position-relative z-3">
+    <div class="container">
+        <div class="p-4 p-md-5  rounded-4" style="background:var(--blue);">
+            <h2 class="fs-2 text-white text-center fw-bold">Subscribe to our Newsletter</h2>
+            <p class="fs-5 text-white text-center mb-4">Hostel Notidication News Update</p>
+            <form action="#" method="post">
+                <div class="row g-3">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="input__group">
+                            <label for="name" class="label">Full name</label>
+                            <input type="name" id="name" class="form-control" placeholder="">
+                        </div> 
                     </div>
-                </form>
-                  
-            </div>
-        </div><!--.container-->
-     </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="input__group">
+                            <label for="phone" class="label">Phone number</label>
+                            <input type="text" id="phone" class="form-control" placeholder="">
+                        </div> 
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="input__group">
+                            <label for="email" class="label">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="">
+                        </div> 
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="input__group">
+                            <label for="country" class="label">Country</label>
+                            <input type="text" id="country" class="form-control" placeholder="">
+                        </div> 
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="input__group">
+                            <label for="college" class="label">College name</label>
+                            <input type="text" id="college" class="form-control" placeholder="">
+                        </div> 
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="input__group">
+                            <label for="course" class="label">Course name</label>
+                            <input type="text" id="course" class="form-control" placeholder="">
+                        </div> 
+                    </div>
+                    <div class="col-12 text-center"> 
+                        <button type="submit" class="btn btn-outline-white border-2 px-5 py-3 fs-5 gap-3 mt-3">
+                            Subscribe
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 56 56"><path fill="white" d="M49.762 28c0-.586-.234-1.125-.703-1.57L33.543 10.938c-.516-.516-1.031-.704-1.594-.704c-1.148 0-2.039.844-2.039 2.016c0 .563.188 1.101.563 1.477l5.25 5.343l7.898 7.196l-5.672-.352H8.301c-1.195 0-2.063.867-2.063 2.086s.867 2.086 2.063 2.086h29.648l5.696-.352l-7.922 7.196l-5.25 5.343c-.375.352-.563.914-.563 1.477c0 1.172.89 2.016 2.04 2.016c.562 0 1.054-.211 1.523-.657L49.059 29.57c.469-.445.703-.984.703-1.57"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </form>
+                
+        </div>
+    </div><!--.container-->
+    </div>
     <!-- subscribtion wrapper end -->
     
     <!-- Footer Wrapper Start -->

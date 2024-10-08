@@ -13,7 +13,7 @@
 <body> 
 
     <!-- Preloader, Main Navigation Menu --> 
-    <?php include_once('includes/header.inc.php'); ?> 
+    <?php $profileNav="true"; include_once('includes/header.inc.php'); ?> 
 
     <main>
         <!-- header section start -->

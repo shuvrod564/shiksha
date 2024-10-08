@@ -36,8 +36,44 @@
                                 include('includes/components/comment-item.inc.php');
                             ?> 
                         </ul>
-                        <a href="#" class="btn btn-outline-secondary w-100 mt-3">Add comment</a>
+                         
                     </div>
+                </div>
+
+                <div class="p-4 rounded-3 bg-white mt-4 border table-border-color">
+                    <h2 class="fs-4 fw-bold text-dark mb-3">Leave a Comment</h2>
+                    <form action="#" class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="input__group">
+                                <label for="name" class="label">Full name</label>
+                                <input type="name" id="name" class="form-control" placeholder="">
+                            </div> 
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="input__group">
+                                <label for="phone" class="label">Phone number</label>
+                                <input type="text" id="phone" class="form-control" placeholder="">
+                            </div> 
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="input__group">
+                                <label for="email" class="label">Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="">
+                            </div> 
+                        </div>
+                        <div class="col-12">
+                            <div class="input__group">
+                                <label for="comment" class="label">Your Comment</label>
+                                <textarea name="comment" id="comment" cols="30" rows="4" class="form-control h-auto"></textarea>
+                            </div>  
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary px-5 fs-5 fw-medium">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+
                 </div>
                  
             </div><!--./container-->
