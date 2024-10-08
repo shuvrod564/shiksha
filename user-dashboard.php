@@ -33,13 +33,13 @@
 
         <!-- content wrapper start -->
         <div class="py-5">
-            <div class="container">
-                <div class="row g-4 c">
-                    <div class="col-xxl-3 col-lg-4">
+            <div class="container-fluid">
+                <div class="row g-4">
+                    <div class="user__column">
                         <?php include('includes/profile-sidemenu.inc.php'); ?> 
                     </div><!--.col-->
 
-                    <div class="col-xxl-9 col-lg-8">
+                    <div class="col">
                         <div class="row g-3">
                             <div class="col-md-4">
                                 <div class="card card-body bg-warning-subtle border-0 p-4">
@@ -94,7 +94,81 @@
                                 include('includes/components/profile-course-item.inc.php');
                             ?>  
                         </ul> 
-
+                        
+                        <div class="pt-5">
+                            <table class="table coustom__table">
+                                <table class="table coustom__table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">First</th>
+                                            <th scope="col">Last</th>
+                                            <th scope="col">Eamil</th>
+                                            <th scope="col">Phone Number</th>
+                                            <th scope="col">User Name</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>John</td>
+                                            <td> Doe</td>
+                                            <td>John@gmail.com</td>
+                                            <td>0*********</td>
+                                            <td>John</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>John</td>
+                                            <td> Doe</td>
+                                            <td>John@gmail.com</td>
+                                            <td>0*********</</td>
+                                            <td>John</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>John</td>
+                                            <td> Doe</td>
+                                            <td>John@gmail.com</td>
+                                            <td>0*********</</td>
+                                            <td>John</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>John</td>
+                                            <td> Doe</td>
+                                            <td>John@gmail.com</td>
+                                            <td>0*********</</td>
+                                            <td>John</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>John</td>
+                                            <td> Doe</td>
+                                            <td>John@gmail.com</td>
+                                            <td>0*********</</td>
+                                            <td>John</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>John</td>
+                                            <td> Doe</td>
+                                            <td>John@gmail.com</td>
+                                            <td>0*********</</td>
+                                            <td>John</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>John</td>
+                                            <td> Doe</td>
+                                            <td>John@gmail.com</td>
+                                            <td>J0*********</</td>
+                                            <td>John</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </table>
+                        </div>
 
                     </div><!--/.col-->
                  

@@ -33,13 +33,13 @@
 
         <!-- content wrapper start -->
         <div class="py-5">
-            <div class="container">
-                <div class="row g-4 c">
-                    <div class="col-xxl-3 col-lg-4">
+            <div class="container-fluid">
+                <div class="row g-4">
+                    <div class="user__column">
                         <?php include('includes/profile-sidemenu.inc.php'); ?> 
                     </div><!--.col-->
 
-                    <div class="col-xxl-9 col-lg-8">
+                    <div class="col">
                     <ul class="d-flex flex-column gap-3 gap-md-4 list-unstyled ps-0 mb-0">
                             <?php
                                 $image="assets/images/global/course-1.jpg";

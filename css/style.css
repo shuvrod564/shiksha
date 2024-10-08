@@ -399,6 +399,11 @@
 }
 
 /*---- User profile link list styles ----*/
+@media (min-width: 992px) {
+  .user__column {
+    width: 300px;
+  }
+}
 .user__profile__thumbnail {
   width: 6rem;
   height: 6rem;
@@ -422,6 +427,14 @@
 }
 .profile__link__list li.active a svg {
   fill: var(--brand);
+}
+
+.collapsed__button:not(.collapsed) .icon svg {
+  transform: rotate(-180deg);
+}
+
+.active ul li a {
+  background-color: transparent !important;
 }
 
 .border-light {

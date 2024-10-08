@@ -33,13 +33,13 @@
 
         <!-- content wrapper start -->
         <div class="py-5">
-            <div class="container">
-                <div class="row g-4 c">
-                    <div class="col-xxl-3 col-lg-4">
+            <div class="container-fluid">
+                <div class="row g-4">
+                    <div class="user__column">
                         <?php include('includes/profile-sidemenu.inc.php'); ?> 
                     </div><!--.col-->
 
-                    <div class="col-xxl-9 col-lg-8">
+                    <div class="col">
                         <div class="card shadow-sm border-light">
                             <div class="card-header bg-white d-flex align-items-center justify-content-between p-4 border-light"> 
                                 <h1 class="fs-3 text-dark fw-semibold mb-0">My Profile</h1>
