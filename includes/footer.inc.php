@@ -91,10 +91,9 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6"> 
                     <p class="fs-6 fw-semibold text-dark">Company Portal</p>
                     <ul class="d-flex gap-1 flex-column "> 
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Agency Enquiry</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="contact.php">Contact us</a></li> 
+                        <li><a href="policy.php">Terms of Use</a></li>
+                        <li><a href="policy.php">Privacy Policy</a></li>
                     </ul>
                 </div><!--.//col-->
             </div><!--.//row--> 

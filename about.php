@@ -68,7 +68,7 @@
         <!-- Our Mission section Start -->
         <section class="py-5">
             <div class="container">
-                <div class="row g-3 g-lg-4">
+                <div class="row g-3 g-lg-4 align-items-center">
                     <div class="col-lg-6 d-flex">
                         <img 
                             src="assets/images/about/my-experiences.webp" 
